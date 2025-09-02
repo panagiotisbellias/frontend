@@ -1,0 +1,5 @@
+Requirements
+There are currently four supported methods for getting up and running with Instalution.
+
+Method chosen: Option 2: Installing Instalution with Docker Compose
+https://github.com/lipupini/frontend/blob/master/README-en.md#option-2-installing-instalution-with-docker-compose
