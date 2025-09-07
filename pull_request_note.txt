@@ -1,5 +1,15 @@
 Requirements
 There are currently four supported methods for getting up and running with Instalution.
 
-Method chosen: Option 2: Installing Instalution with Docker Compose
-https://github.com/lipupini/frontend/blob/master/README-en.md#option-2-installing-instalution-with-docker-compose
+Method chosen: Option 1: Installing Instalution with pnpM
+https://github.com/lipupini/frontend/blob/master/README-en.md#option-1-installing-instalution-with-pnpm
+
+1. git clone https://github.com/instalution/frontend.git
+2. cd frontend
+3. pnpm install
+4. pnpm next telemetry disable
+5. Download an archive of your data from Instagram
+6. Extract the contents of the media/posts/ directory in the archive to ./public/accounts/[archive_folder_name]. The base folder name will become the username, and Instalution will read every image and video in every subfolder.
+7. 	pnpm add -D cross-env
+		Updated package.json to "dev": "cross-env NEXT_TELEMETRY_DISABLED=1 next dev --port 1234"
+		pnpm dev -- Instalution should now be available at http://localhost:1234
