@@ -16,25 +16,31 @@ There are currently four supported methods for getting up and running with Insta
 
 ### pnpM Method
 
-- [pnpM](https://pnpm.io/installation)
+- Installing [pnpM](https://pnpm.io/installation)
+- [Installing Instalution](https://github.com/lipupini/frontend/blob/master/README-en.md#option-1-installing-instalution-with-pnpm)
 
 ### Docker Compose Method
 
-- [Docker](https://docs.docker.com/get-docker/)
-- [Docker Compose](https://docs.docker.com/compose/install/)
+- Installing [Docker](https://docs.docker.com/get-docker/)
+- Installing [Docker Compose](https://docs.docker.com/compose/install/)
+- [Installing Instalution](https://github.com/lipupini/frontend/blob/master/README-en.md#option-2-installing-instalution-with-docker-compose)
 
 ### Dockerfile Method
 
-- [Docker](https://docs.docker.com/get-docker/)
+- Installing [Docker](https://docs.docker.com/get-docker/)
+- [Installing Instalution](https://github.com/lipupini/frontend/blob/master/README-en.md#option-3-installing-instalution-with-dockerfile)
+
 
 ### Vagrant Method
 
-- [Vagrant](https://vagrantup.com/)
-- [VirtualBox](https://virtualbox.org/)
+- Installing [Vagrant](https://vagrantup.com/)
+- Installing [VirtualBox](https://virtualbox.org/)
+- [Installing Instalution](https://github.com/lipupini/frontend/blob/master/README-en.md#option-4-installing-instalution-with-vagrant)
 
 ## Installing Instalution
 
 ### Option 1: Installing Instalution with pnpM
+
 1) `git clone https://github.com/instalution/frontend.git instalution`
 2) `cd instalution`
 3) `pnpm install`
